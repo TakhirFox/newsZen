@@ -9,23 +9,35 @@
 /* Begin PBXBuildFile section */
 		AD6A6C6F25035EDA00A57337 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6A6C6E25035EDA00A57337 /* AppDelegate.swift */; };
 		AD6A6C7125035EDA00A57337 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6A6C7025035EDA00A57337 /* SceneDelegate.swift */; };
-		AD6A6C7325035EDA00A57337 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6A6C7225035EDA00A57337 /* ViewController.swift */; };
 		AD6A6C7625035EDA00A57337 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD6A6C7425035EDA00A57337 /* Main.storyboard */; };
 		AD6A6C7925035EDA00A57337 /* newsZennex.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AD6A6C7725035EDA00A57337 /* newsZennex.xcdatamodeld */; };
 		AD6A6C7B25035EE000A57337 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD6A6C7A25035EE000A57337 /* Assets.xcassets */; };
 		AD6A6C7E25035EE000A57337 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD6A6C7C25035EE000A57337 /* LaunchScreen.storyboard */; };
+		AD6A6C862503603200A57337 /* NewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6A6C852503603200A57337 /* NewsTableViewController.swift */; };
+		AD6A6C882503612400A57337 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6A6C872503612400A57337 /* DetailViewController.swift */; };
+		AD6A6C8A25038EAB00A57337 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6A6C8925038EAB00A57337 /* News.swift */; };
+		AD6A6C8F250530D700A57337 /* NewsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6A6C8E250530D700A57337 /* NewsDetailViewController.swift */; };
+		AD6A6C92250539A500A57337 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD6A6C91250539A500A57337 /* WebKit.framework */; };
+		AD8D3FAB250DE6AC00843C98 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8D3FAA250DE6AC00843C98 /* NewsTableViewCell.swift */; };
+		AD8D3FAD250DF1CE00843C98 /* LoadTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8D3FAC250DF1CE00843C98 /* LoadTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AD6A6C6B25035EDA00A57337 /* newsZennex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = newsZennex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD6A6C6E25035EDA00A57337 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD6A6C7025035EDA00A57337 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AD6A6C7225035EDA00A57337 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AD6A6C7525035EDA00A57337 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AD6A6C7825035EDA00A57337 /* newsZennex.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = newsZennex.xcdatamodel; sourceTree = "<group>"; };
 		AD6A6C7A25035EE000A57337 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD6A6C7D25035EE000A57337 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD6A6C7F25035EE000A57337 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD6A6C852503603200A57337 /* NewsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewController.swift; sourceTree = "<group>"; };
+		AD6A6C872503612400A57337 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		AD6A6C8925038EAB00A57337 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		AD6A6C8E250530D700A57337 /* NewsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailViewController.swift; sourceTree = "<group>"; };
+		AD6A6C91250539A500A57337 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		AD8D3FAA250DE6AC00843C98 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		AD8D3FAC250DF1CE00843C98 /* LoadTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD6A6C92250539A500A57337 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +57,7 @@
 			children = (
 				AD6A6C6D25035EDA00A57337 /* newsZennex */,
 				AD6A6C6C25035EDA00A57337 /* Products */,
+				AD6A6C90250539A500A57337 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,14 +74,35 @@
 			children = (
 				AD6A6C6E25035EDA00A57337 /* AppDelegate.swift */,
 				AD6A6C7025035EDA00A57337 /* SceneDelegate.swift */,
-				AD6A6C7225035EDA00A57337 /* ViewController.swift */,
+				AD6A6C8B2503916D00A57337 /* Model */,
 				AD6A6C7425035EDA00A57337 /* Main.storyboard */,
-				AD6A6C7A25035EE000A57337 /* Assets.xcassets */,
+				AD6A6C852503603200A57337 /* NewsTableViewController.swift */,
+				AD8D3FAA250DE6AC00843C98 /* NewsTableViewCell.swift */,
+				AD8D3FAC250DF1CE00843C98 /* LoadTableViewCell.swift */,
+				AD6A6C8E250530D700A57337 /* NewsDetailViewController.swift */,
+				AD6A6C872503612400A57337 /* DetailViewController.swift */,
 				AD6A6C7C25035EE000A57337 /* LaunchScreen.storyboard */,
 				AD6A6C7F25035EE000A57337 /* Info.plist */,
 				AD6A6C7725035EDA00A57337 /* newsZennex.xcdatamodeld */,
+				AD6A6C7A25035EE000A57337 /* Assets.xcassets */,
 			);
 			path = newsZennex;
+			sourceTree = "<group>";
+		};
+		AD6A6C8B2503916D00A57337 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AD6A6C8925038EAB00A57337 /* News.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AD6A6C90250539A500A57337 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD6A6C91250539A500A57337 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,10 +176,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD6A6C8F250530D700A57337 /* NewsDetailViewController.swift in Sources */,
+				AD6A6C8A25038EAB00A57337 /* News.swift in Sources */,
+				AD6A6C862503603200A57337 /* NewsTableViewController.swift in Sources */,
 				AD6A6C7925035EDA00A57337 /* newsZennex.xcdatamodeld in Sources */,
-				AD6A6C7325035EDA00A57337 /* ViewController.swift in Sources */,
+				AD6A6C882503612400A57337 /* DetailViewController.swift in Sources */,
 				AD6A6C6F25035EDA00A57337 /* AppDelegate.swift in Sources */,
+				AD8D3FAD250DF1CE00843C98 /* LoadTableViewCell.swift in Sources */,
 				AD6A6C7125035EDA00A57337 /* SceneDelegate.swift in Sources */,
+				AD8D3FAB250DE6AC00843C98 /* NewsTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +331,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J4B53B6TAD;
 				INFOPLIST_FILE = newsZennex/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +350,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J4B53B6TAD;
 				INFOPLIST_FILE = newsZennex/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
